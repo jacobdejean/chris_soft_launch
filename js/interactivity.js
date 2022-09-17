@@ -149,11 +149,11 @@ let emailErrorMessage = document.getElementById('email-error-message');
 let messageErrorMessage = document.getElementById('message-error-message');
 
 let submitButton = document.getElementById('visible-submit-button');
-
 let submitButtonLoadingIcon = document.getElementById('visible-submit-button-icon-loading');
 let submitButtonCompleteIcon = document.getElementById('visible-submit-button-icon-complete');
 let submitButtonText = document.getElementById('visible-submit-button-text');
 let formErrorMessage = document.getElementById('form-error');
+let form = document.getElementById('email-form');
 
 let nameInputField = new ValidatableInputField("name", "empty", nameInputDiv, nameInput, nameErrorMessage);
 let emailInputField = new ValidatableInputField("email", "empty email", emailInputDiv, emailInput, emailErrorMessage);
@@ -172,7 +172,7 @@ function visibleSubmitClick(evt) {
 }
 
 function send() {
-    emailjs.sendForm('service_lb1roui', 'template_3dlahab', '#email-form')
+    emailjs.sendForm('service_lb1roui', 'template_7mjogek', form)
     .then(function(response) {
         console.log('Successfully submitted form: ', response);
         showSuccessState();
