@@ -148,13 +148,22 @@
       <div class="form">
         <div class="visible-form-block w-form">
           <form id="email-form" name="email-form" data-name="Email Form" method="get" class="visible-form">
-            <div id="name-input-div" class="input-div"><label id="visible-name-label" for="visible-name" class="visible-field-label">Name</label><input type="text" class="visible-text-field w-input" maxlength="256" name="name" data-name="Name" placeholder="" id="visible-name"><img loading="lazy" src="images/warning.svg" alt="" class="warning-indicator">
+            <div id="name-input-div" class="input-div">
+              <label id="visible-name-label" for="name" class="visible-field-label">Name</label>
+              <input type="text" class="visible-text-field w-input" maxlength="256" name="name" data-name="Name" placeholder="" id="visible-name">
+              <img loading="lazy" src="images/warning.svg" alt="" class="warning-indicator">
               <div id="name-error-message" class="error-message">Error message</div>
             </div>
-            <div id="email-input-div" class="input-div"><label id="visible-email-label" for="visible-email" class="visible-field-label">Email address</label><input type="email" class="visible-text-field email w-input" maxlength="256" name="email" data-name="Email" placeholder="" id="visible-email" required=""><img loading="lazy" src="images/warning.svg" alt="" class="warning-indicator">
+            <div id="email-input-div" class="input-div">
+              <label id="visible-email-label" for="email" class="visible-field-label">Email address</label>
+              <input type="email" class="visible-text-field email w-input" maxlength="256" name="email" data-name="Email" placeholder="" id="visible-email" required="">
+              <img loading="lazy" src="images/warning.svg" alt="" class="warning-indicator">
               <div id="email-error-message" class="error-message">Error message</div>
             </div>
-            <div id="message-input-div" class="input-div"><label id="visible-message-label" for="visible-message" class="visible-field-label">Your message</label><textarea id="visible-message" name="field" maxlength="5000" data-name="field" placeholder="" required="" class="visible-textarea w-input"></textarea><img loading="lazy" src="images/warning.svg" alt="" class="warning-indicator">
+            <div id="message-input-div" class="input-div">
+              <label id="visible-message-label" for="field" class="visible-field-label">Your message</label>
+              <textarea id="visible-message" name="field" maxlength="5000" data-name="field" placeholder="" required="" class="visible-textarea w-input"></textarea>
+              <img loading="lazy" src="images/warning.svg" alt="" class="warning-indicator">
               <div id="message-error-message" class="error-message">Error message</div>
             </div>
             <a id="visible-submit-button" href="#" class="visible-form-button-default w-inline-block">
@@ -176,11 +185,6 @@
             </a>
             <div id="form-error" class="form-error">There was an internal error. Please check your connection and try again. If this persists: chrisdenais@gmail.com</div>
           </form>
-          <div class="success-message w-form-done"></div>
-          <div class="error-message-3 w-form-fail"></div>
-        </div>
-        <div class="hidden-form-block w-form">
-          <form id="wf-form-Hidden-Form" name="wf-form-Hidden-Form" data-name="Hidden Form" method="get" class="hidden-form"><input type="text" class="hidden-text-field w-input" maxlength="256" name="hidden-name-2" data-name="Hidden Name 2" placeholder="" id="hidden-name"><input type="email" class="hidden-text-field w-input" maxlength="256" name="hidden-email-2" data-name="Hidden Email 2" placeholder="" id="hidden-email" required=""><textarea id="hidden-message" name="field" maxlength="5000" data-name="field" placeholder="" class="hidden-text-field w-input"></textarea><input type="submit" id="hidden-submit-button" value="s" data-wait="i" class="hidden-submit-button w-button"></form>
           <div class="success-message w-form-done"></div>
           <div class="error-message-3 w-form-fail"></div>
         </div>
@@ -210,5 +214,11 @@
   <script src="https://cdn.jsdelivr.net/gh/jacobdejean/chrisdenais-webpage-scripts@v1.3/custom-form.js" async=""></script>
   <script src="https://cdn.jsdelivr.net/gh/jacobdejean/chrisdenais-webpage-scripts@master/menu.js" async></script>
   <script src="https://cdn.jsdelivr.net/gh/jacobdejean/chrisdenais-webpage-scripts@master/morph-slider.js" async></script>
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+  <script type="text/javascript">
+    (function(){
+        emailjs.init("fxqfE5TofYN33gIYW");
+    })();
+  </script> 
 </body>
 </html>
