@@ -1,0 +1,24 @@
+{
+    "testimonials": [
+        { 
+            "quote": "\"Chris' commitment to the Figma design deliverables, project timeline, and satisfaction of end users was top notch.\"",
+            "author": "Mason Shewman\nCEO & Founder, Anvil Digital"
+        },
+        {
+            "quote": "\"Hiring Chris brought us instant relaxation.\"",
+            "author": "Julian Capps\nHead of Defense, Crowdbotics"
+        },
+        {
+            "quote": "\"Christopher worked quickly to understand complex workflows and proposed multiple explorations.\"",
+            "author": "Harry Moore\nCEO & Founder, Wayland"
+        },
+        {
+            "quote": "\"Chris’ understanding of designing for the web, openness to ideas, and the mathematics of why.\"",
+            "author": "John D.\nCEO & Founder, Wirehead"
+        },
+        {
+            "quote": "\"I felt comfortable Chris understood the issue then giving him the chance to diagnose it pretty much confirmed it.\"",
+            "author": "Chris Wilson\nCEO & Founder, R3VOLUTION DIGITAL"
+        }
+    ]
+}

@@ -1,0 +1,6 @@
+- moved all inline scripts to jsdelivr
+- moved all inline styles to main stylesheet
+- changed testimonial data webflow url to relative path
+- menu: visibility hidden
+- work sections: display none
+- 
