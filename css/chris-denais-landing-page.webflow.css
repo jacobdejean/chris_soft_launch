@@ -5,6 +5,15 @@ body {
   line-height: 20px;
 }
 
+body {
+  padding-top: 0px;
+}
+
+.menu-container {
+  opacity: 0;
+  pointer-events: none;
+}
+
 .body {
   background-color: #000;
   font-family: 'Space Grotesk', sans-serif;
@@ -962,11 +971,9 @@ body {
     padding-left: 0rem;
   }
 
-  body {
-    padding-top: 0px;
-  }
-
   .menu-container {
+    opacity: 0;
+    pointer-events: none;
     display: none;
   }
 }
