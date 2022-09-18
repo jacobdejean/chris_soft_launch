@@ -232,8 +232,8 @@ function showSuccessState() {
 
 // SLIDER
 
-//const testimonialUrl = 'https://uploads-ssl.webflow.com/62b632a343e2852836af0565/62d4f6ac727756947b8f3c98_testimonials.txt';
-const testimonialUrl = 'js/testimonials.txt';
+const testimonialUrl = 'https://uploads-ssl.webflow.com/62b632a343e2852836af0565/62d4f6ac727756947b8f3c98_testimonials.txt';
+//const testimonialUrl = 'js/testimonials.txt';
 let testimonials = {};
 let currentSlideIndex = 0;
 let nextQuote = document.getElementById('next-quote');
