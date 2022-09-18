@@ -1444,6 +1444,10 @@ text-decoration: underline;
   body {
     padding-top: 0px;
   }
+
+  .menu-container {
+    display: none;
+  }
 }
 @media only screen and (max-width: 428px) {
   #mobile-detector { display: none; }
