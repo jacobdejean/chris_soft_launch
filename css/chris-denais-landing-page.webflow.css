@@ -1440,6 +1440,10 @@ text-decoration: underline;
   .testimonial-container { 
       min-height: 20rem; 
   }
+
+  body {
+    padding-top: 0px;
+  }
 }
 @media only screen and (max-width: 428px) {
   #mobile-detector { display: none; }
