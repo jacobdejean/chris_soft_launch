@@ -961,6 +961,14 @@ body {
     padding-top: 3rem;
     padding-left: 0rem;
   }
+
+  body {
+    padding-top: 0px;
+  }
+
+  .menu-container {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 479px) {
